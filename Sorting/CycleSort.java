@@ -9,7 +9,7 @@ class CycleSort{
         
     }
     static void cycleSort(int[] arr){
-        int i = 0 ; //search will start from zeroth index;
+        int i = 0 ; 
         while (i < arr.length){
             int correct = arr[i] - 1;
             if(arr[i] != arr[correct]){
