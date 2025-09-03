@@ -1,8 +1,11 @@
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
+//Asked in Amazon
 import java.util.*;
 class FindAllNumbersDisappearedInAnArray{
     public static void main(String[] args) {
-        int[] nums = {1,4,5,7,3,6,6,9};
+    int[] nums = {1,4,5,7,3,6,6,9};
+    
+    // since the function is not static we cannot call it directly and hence make its object
     FindAllNumbersDisappearedInAnArray solution = new FindAllNumbersDisappearedInAnArray();
     List<Integer> result = solution.findDisappearedNumbers(nums);
     System.out.println(result);  
