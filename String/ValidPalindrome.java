@@ -11,6 +11,7 @@ class ValidPalindrome {
             return false ;
         }
         //Method 1
+        //two pointers
         /*int start = 0 ;
         int end = s.length() - 1 ;
 
@@ -30,8 +31,9 @@ class ValidPalindrome {
         return true;*/
 
         //Method 2 
+        //Strings
 
-        s = s.toLowerCase().replaceAll("[^a-z]" , "");
+        s = s.toLowerCase().replaceAll("[^a-z0-9]" , ""); // in replaceALL ^ == NOT
         for (int i = 0 ; i <= s.length() / 2 ; i++){
            if(s.charAt(i) != s.charAt(s.length() - 1 -i)){
             return false;
