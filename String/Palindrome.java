@@ -5,6 +5,9 @@ class Palindrome {
         
     }
     static boolean isPalin (String s){
+        if(s == null || s.length() == 0 ){
+            return true ;
+        }
         s = s.toLowerCase();
         for(int i = 0 ; i <= s.length() / 2 ; i++ ){
             char start = s.charAt(i);
