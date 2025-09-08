@@ -9,7 +9,7 @@ public static void main(String[] args) {
     
 }   
  static String reverseWords(String s) {
-   String[] words = s.trim().split("//s+");
+   String[] words = s.trim().split("\\s+");
 
    Collections.reverse(Arrays.asList(words));
 
