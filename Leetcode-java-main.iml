@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main/Best Time to Buy And Sell Stock" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main/Binary Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main/Prefix Sum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode-java-main" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
