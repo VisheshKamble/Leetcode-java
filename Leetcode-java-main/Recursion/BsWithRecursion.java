@@ -7,7 +7,6 @@ public class BsWithRecursion {
         System.out.println(Bs(arr, target , 0 , arr.length - 1 ));
 
    }
-
     static int Bs (int [] arr , int target , int s , int e){
         if(s > e){
             return -1;
